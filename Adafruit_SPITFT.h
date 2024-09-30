@@ -26,6 +26,9 @@
 #include "Adafruit_GFX.h"
 #include <SPI.h>
 
+// Include a header file for atmega328pb compatibility (Zum Core 2.0)
+#include "avr/atmega328pb_redirects.h"
+
 // HARDWARE CONFIG ---------------------------------------------------------
 
 #if defined(__AVR__)
