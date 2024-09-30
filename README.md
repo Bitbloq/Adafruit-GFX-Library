@@ -45,3 +45,7 @@ The PRIME DIRECTIVE is to maintain backward compatibility with existing Arduino 
 - Please no more pentagram-drawing PRs. Any oddly-specific drawing functions can go in your own code and aren't helpful in a library context.
 
 If you *must* have one of these features, consider creating a fork with the features required for your project...it's easy to keep synced with the upstream code.
+
+# About this fork
+
+This fork includes a header file in `Adafruit_SPITFT.h` for enabling compatibility with the atmega328pb architecture and therefore with the BQ Educación Zum Core 2.0 board.
